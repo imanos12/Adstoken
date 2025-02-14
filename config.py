@@ -31,11 +31,11 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://rjkundra:Kayamkhani@cluster0.s6lvxxs.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "3ede12cdfea29f9ccfaf11c75fae37007c3fbd2b")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "kingurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "af753b3aad77c48e3f0755180b6029a4eeef8701")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","isaimini_updates")
+TUT_VID = os.environ.get("TUT_VID","")
 
 
 #force sub channel id, if you want enable force sub
